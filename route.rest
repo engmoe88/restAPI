@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5d5df064a4d8e64c0fc96efc
+
+
+###
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "Mo Almukhtar3",
+    "subscribedToChannel": "Yes, Subscribed yaw"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5d5df064a4d8e64c0fc96ef
+
+###
+
+PATCH  http://localhost:3000/subscribers/5d5daa71079157464481f84c
+Content-Type: application/json
+
+{
+    "name": "Mo 22222",
+    "subscribedToChannel": "Hi"
+}
